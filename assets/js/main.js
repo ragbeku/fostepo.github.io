@@ -1,4 +1,4 @@
-/* FostePo interactions. Uses data-* hooks so layout/content can be edited
+/* Fostepo interactions. Uses data-* hooks so layout/content can be edited
    without rewriting the behaviour layer. Keep hooks on replacement elements. */
 (() => {
   'use strict';
@@ -150,7 +150,7 @@
     if (!form.reportValidity()) return;
     const data = new FormData(form);
     const message = [
-      'Hello FostePo Construction Enterprise,',
+      'Hello Fostepo Construction Enterprise,',
       '',
       'I would like to make a project enquiry.',
       `Name: ${data.get('name')}`,
