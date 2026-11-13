@@ -1,4 +1,4 @@
-/* FostePo Projects page: category filtering for the complete portfolio. */
+/* Fostepo Projects page: category filtering for the complete portfolio. */
 (() => {
   'use strict';
 
